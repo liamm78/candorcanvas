@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mystery Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+    }
+
+    .header {
+      width: 100%;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .header-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .header-nav a:hover {
+      color: #ccc;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 50px;
+      margin: 50px;
+      background-color: #f5f5f5;
+    }
+
+    .main-title {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .main-description {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+
+    .main-camera {
+      width: 200px;
+      height: 200px;
+      background-color: #000;
+      border: 1px solid #fff;
+      margin-bottom: 40px;
+    }
+
+    .main-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .main-list-item {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      width: 100%;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .footer-copyright {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-nav">
+        <a href="#">Contact</a>
+        <a href="#">Future Plans</a>
+        <a href="#">About Me</a>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="main-title">Mystery Website</h1>
+      <p class="main-description">
+        This website is a mystery. We don't know what it is, but we're excited to find out.
+      </p>
+      <div class="main-camera"></div>
+      <ul class="main-list">
+        <li class="main-list-item">
+          <i class="fas fa-check"></i>
+          Lorem ipsum dolor sit amet.
+        </li>
+        <li class="main-list-item">
+          <i class="fas fa-check"></i>
+          Lorem ipsum dolor sit amet.
+        </li>
+        <li class="main-list-item">
+          <i class="fas fa-check"></i>
+          Lorem ipsum dolor sit amet.
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <p class="footer-copyright">
+        Copyright &copy; 2023 Mystery Website. All rights reserved.
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
